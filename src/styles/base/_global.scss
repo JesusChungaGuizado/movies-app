@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+html {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: $font;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: $blue-dark;
+  font-family: $font;
+  color: $white;
+}
+
+main,
+nav {
+  max-width: 1140px;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+a {
+  text-decoration: none !important;
+}
+.active {
+  color: green;
+}
+ul {
+  list-style: none;
+}
+footer {
+  z-index: 2;
+}
+.subtitle {
+  color: $blue-primary;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.home,
+.listMovies {
+  display: flex;
+  gap: 1rem;
+  @media screen and (max-width: 992px) {
+    flex-direction: column-reverse;
+  }
+}

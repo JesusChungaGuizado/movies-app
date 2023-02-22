@@ -1,0 +1,14 @@
+//UI Settings
+@import "./base/settings";
+@import "./base/global";
+//Components
+@import "./components/topNews";
+@import "./components/banner";
+@import "./components/header";
+@import "./components/movies";
+@import "./components/aside";
+@import "./components/loader";
+@import "./components/navBar";
+@import "./components/movieListCard";
+//Pages
+@import "./pages/home";
